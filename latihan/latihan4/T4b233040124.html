@@ -1,55 +1,93 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Curicullum Vitae</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <table bgcolor="#12f7ff" width="70%" border="1" cellspacing="5" cellpadding="15">
-            <th bgcolor="#1d002c" colspan="20"><font color="white"><b>CURICULLUM VITAE</b></font></th>
-            <tr>
-                <td>Nama</td>
-                <td>:</td>
-                <td>M.Farrel Octora R</td>
-                <td rowspan="5" align="center"><img src="pasfoto.jpg" width="200px"></td>
-            </tr>
-            <tr>
-                <td>Jenis Kelamin</td>
-                <td>:</td>
-                <td>Laki-laki</td>
-            </tr>
-            <tr>
-                <td>Agama</td>
-                <td>:</td>
-                <td>islam</td>
-            </tr>
-            <tr>
-                <td>E-mail</td>
-                <td>:</td>
-                <td>farrel.233040124@mail.unpas.ac.id</td>
-            </tr>
-            <tr>
-                <td>Tempat Tanggal Lahir</td>
-                <td>:</td>
-                <td>Bandung, 11 Oktober 2004</td>
-            </tr>
-            <th bgcolor="#1d002c" colspan="20"><font color="white"><b>PENDIDIKAN FORMAL</b></font></th>
-            <tr>
-                <td colspan="20">
-                    <ul>
-                        <li>SDN PANCASILA</li>
-                        <li>SMPN 1 Lembang</li>
-                        <li>SMAN 1 Lembang</li>
-                        <li>Universitas Pasundan Bandung</li>
-                    </ul>
-                </td>
-            </tr>
-            <th bgcolor="#1d002c" colspan="20"><font color="white"><b>HOBBY</b></font></th>
-            <tr>
-                <td>
-                    <img src="catur.jpeg" width="200px" height="250px">
-                </td>
-                <td><img src="nontonfilm.jpg" width="200px" height="250px"></td>
-            </tr>
-        </table>
-    </body>
+<head>
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            background-color: #12f7ff;
+            border: 1px solid #000;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #1d002c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .title {
+            font-size: 24px;
+        }
+
+        .section {
+            margin-top: 15px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            background-color: #1d002c;
+            color: white;
+            padding: 5px;
+        }
+
+        .content {
+            margin: 5px 0;
+        }
+
+        .image {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">CURRICULUM VITAE</h1>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Personal Information</h2>
+            <div class="content">
+                <p>Nama: M.Farrel Octora R</p>
+                <p>Jenis Kelamin: Laki-laki</p>
+                <p>Agama: Islam</p>
+                <p>E-mail: farrel.233040124@mail.unpas.ac.id</p>
+                <p>Tempat Tanggal Lahir: Bandung, 11 Oktober 2004</p>
+                <img class="image" src="pasfoto.jpg" alt="Pasfoto">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Formal Education</h2>
+            <div class="content">
+                <ul>
+                    <li>SDN PANCASILA</li>
+                    <li>SMPN 1 Lembang</li>
+                    <li>SMAN 1 Lembang</li>
+                    <li>Universitas Pasundan Bandung</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Hobbies</h2>
+            <div class="content">
+                <img class="image" src="catur.jpeg" alt="Playing Chess">
+                <img class="image" src="nontonfilm.jpg" alt="Watching Films">
+            </div>
+        </div>
+    </div>
+</body>
 </html>
